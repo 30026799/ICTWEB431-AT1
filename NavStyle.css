@@ -1,0 +1,122 @@
+
+.topnav {
+    background-color: #180000;
+    overflow: auto;
+  } 
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  }
+  .topnav a:hover {
+    background-color: #6c2c2c;
+    color: white;
+  }
+  
+  .topnav a.active {
+    background-color: #700909;
+    color: white;
+    border-radius: 8%;
+  }
+  .topnav a.login {
+    background-color: #ff3c3c;
+    color: white;
+    float: right;
+    border-radius: 30%;
+  }
+  .sidenav {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #310d0d; 
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.5s; 
+  }
+  .topnav input[type=input] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  }
+  /* When the screen is less than 600px wide, stack the links and the search field vertically instead of horizontally */
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+  .NavRight {
+    float: right;
+  }
+}
+ 
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+ 
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+  .stickybar {
+    position: sticky;
+    top: 0;
+  }
+  .center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+  }
+  .NavLogo {
+    float: left;
+    height: 55px;
+    width: auto;
+  }
+
+
+ 

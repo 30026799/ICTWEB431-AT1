@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      
+        <title>Sing up/Login</title>
+        <link rel="stylesheet" href="LoginStyle.css">
+        <link rel="stylesheet" href="NavStyle.css">
+        <link rel="stylesheet" href="Footer.css">
+        <script src="Loginscripts.js"></script>
+        <script src="Loggedinscripts.js"></script>
+        <script src="nav.js"></script>
+        <div class="topnav">
+          <img class="NavLogo" src="Images/games-logo.png" href="Home.html">
+            <a class="login" href="LoginPage.html" id="demo">Sign up/Login</a>
+            <a href="Home.html">Home</a>
+            <a href="LoginPage.html">Products</a>
+            <a href="LoginPage.html">Contact</a>
+          </div>
+    </head>
+    <body>
+      <div class="stickybar"><span class="stickyside"onclick="openNav()">&#9776;</span></div>
+      <h1>Are you Logging on or Signing up?</h1>
+      <br>
+      <div class="button"> 
+      <button class="btn success" id="LogBut" onclick="ButtonHold()">Login</button>
+      <button class="btn info" id="SignBut" onclick="ButtonHold()">Sign up</button>
+      </div>
+      </div>
+        <br>
+        <div class="textcolour">
+      <div class="center">
+          <form action="HomeLogin.html">
+            <label for="fname">Username:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Password:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <button onclick="myFunction()">Submit</button>
+          </form>
+        </div>
+        </div>
+        <div class="center2">
+        <p>if you would like to proceed further into our website, you are REQUIRED to log into a MASSIVE GAMES account.</p>
+        <p>Please and the thank you for respecting the rules with us at MASSIVE GAMES</p><br><br>
+        <p class="hidden">...</p>
+        </div>
+        <footer>
+          <p></p><br>
+          <img class="footerimg" src="Images/games-logo.png">
+          <p>&#169;Massive Games. All Rights reserved. MassiveGames an the MassiveGames logo are either<br> registered trademarks or trademarks of MASSIVE CORPORATION. MASSIVE GAMES is<br> registered in the Australian Trademark Office. All other trademarks, logos and copyrights are<br> property of their respective owners. </p>
+          <br>
+          <br>
+          <br>
+          <button class="dropbtn">Language Options</button>
+          <div class="dropdown-content">
+            <a href="home.html">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <p class="hidden">hello</p>
+        </footer>
+    </body>
+</html>

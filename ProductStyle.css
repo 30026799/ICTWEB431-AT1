@@ -1,0 +1,50 @@
+.merch {
+    overflow: scroll;
+    height: 1000px;
+    width: 400px;
+    grid-column:2 1;
+}
+.Games {
+    overflow: scroll;
+    height: 1000px;
+    width: 600px;
+    grid-column:1 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.Product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+body {
+    background-color: black;
+}
+.colour {
+background-color: aliceblue;
+border-color: aliceblue;
+border-radius: 10%;
+}
+.layer2colour {
+    background-color:brown;
+    border-color: brown;
+    border-radius: 10%;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.center {
+    margin: auto;
+    width: 100%;
+    border: 3px solid #2e0000;
+    background-color:white;
+    padding: 10px;
+    text-align: center;
+}
+.stickyside {
+    font-size: 30px;cursor:pointer; position: sticky; color: white;
+}
